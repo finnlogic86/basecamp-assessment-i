@@ -46,7 +46,7 @@ var responseCreator = function(param){
     colorResponse = 'I heart red';
     return colorResponse;
   } else {
-    colorResponse = 'What is your favorite color';
+    colorResponse = 'What is your favorite color?';
     return colorResponse;
   }
 };
