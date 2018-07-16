@@ -59,5 +59,5 @@ function sum(param1){
 // #10 Create a function called 'greeter' that takes in two parameters, name and number. Have 'greeter' return a string that says something like this 'Hi! I am Bryan and I am 28 years old" but with the appropriate values..
 
 function greeter(param1, param2){
-  return "Hi! I am " + param1 + "and I am " + param2 + "years old"
+  return "Hi! I am " + param1 + "and I am " + param2 + " years old"
 };
