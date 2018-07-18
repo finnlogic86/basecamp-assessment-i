@@ -17,10 +17,8 @@ let me = "My name is " + (myName) + " and my favorite number is " + (faveNum);
 // #5 Using the previously created faveNum variable, create a new variable called 'trueFaveNum'. *trueFaveNum* should equal true when comparing faveNum to your favorite number.v // HINT: Use a comparison operator
 
 let trueFaveNum;
-if (faveNum === trueFaveNum) {
+if (faveNum === 7) {
   trueFaveNum = true;
-} else {
-  trueFaveNum = false;
 };
 
 
