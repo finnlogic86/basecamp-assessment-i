@@ -29,13 +29,11 @@ console.log(notHakeem);
 var age = 18;
 var canDrive;
 if (age > 16) {
-  canDrive = true;
-  return canDrive;
+  return canDrive = true;
 } else {
-  canDrive = false;
-  return canDrive;
+  return canDrive = false;
 };
-
+console.log(canDrive);
 // #8 Create an if statement inside of the responseCreator function that sets the colorResponse variable value based off of a passed in value. The param value passed in will be added in the unit test. If the param value is 'green' set colorResponse variable to 'Green is okay'. If the param value is 'red' set reponse variable to 'I heart red'. Otherwise set the colorResponse variable to 'What is your favorite color?'. Make sure to return the colorResponse variable at the end once it has been properly set.
 
 var colorResponse;
