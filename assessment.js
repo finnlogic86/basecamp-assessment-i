@@ -16,8 +16,13 @@ let me = "My name is " + (myName) + " and my favorite number is " + (faveNum);
 
 // #5 Using the previously created faveNum variable, create a new variable called 'trueFaveNum'. *trueFaveNum* should equal true when comparing faveNum to your favorite number.v // HINT: Use a comparison operator
 
-let trueFaveNum = faveNum;
-console.log(trueFaveNum === faveNum);
+let trueFaveNum;
+if (faveNum === trueFaveNum) {
+  trueFaveNum = true;
+} else {
+  trueFaveNum = false;
+};
+
 
 // #6 Create a new variable called notHakeem. Using the previously created myName variable, test that your name DOES NOT equal the string 'Hakeem Olajuwon'. If your name does happen to be Hakeem Olajuwon, test against 'Karl Malone'
 
